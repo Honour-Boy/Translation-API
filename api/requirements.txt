@@ -4,3 +4,4 @@ openai
 sentencepiece
 torch
 gunicorn
+huggingface-hub

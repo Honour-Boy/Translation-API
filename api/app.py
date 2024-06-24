@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Load the translation model and tokenizer
-model_name = "Honour-Boy/fine-tuned-model"
+model_name = "Honour-Boy/mt5-translate"
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
